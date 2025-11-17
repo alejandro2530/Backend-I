@@ -1,0 +1,13 @@
+<main>
+    <span>Lista de productos: </span>
+    <div id="box_list_home">
+        {{#each a}}
+        <div>
+            <p>{{this.title}}</p>
+        </div>
+        <hr>
+        {{/each}}
+    </div>
+</main>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>

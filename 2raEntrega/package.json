@@ -1,0 +1,21 @@
+{
+  "name": "2raentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entrega1.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:entrega2": "nodemon src/entrega2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "5.1.0",
+    "express-handlebars": "8.0.3",
+    "nodemon": "3.1.10",
+    "socket.io": "4.8.1",
+    "uuid": "13.0.0"
+  }
+}
